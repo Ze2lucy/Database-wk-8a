@@ -21,3 +21,12 @@ CREATE TABLE Patrons (
     email VARCHAR(100) UNIQUE NOT NULL,
     phone_number VARCHAR(20)
 );
+CREATE TABLE Loans (
+    loan_id INT AUTO_INCREMENT PRIMARY KEY,
+    book_id INT,
+    patron_id INT,
+    loan_date DATE NOT NULL,
+    return_date DATE,
+    FOREIGN KEY (book_id) REFERENCES Books(book_id),
+    FOREIGN KEY (patron_id) REFERENCES Patrons(patron_id)
+);
