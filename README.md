@@ -7,3 +7,7 @@ This project implements a simple Library Management System (LMS) using MySQL. Th
 ## How to Run / Setup
 
 1. Clone this repository: https://github.com/Ze2lucy/Database-wk-8a.git
+
+## ERD Link
+
+https://dbdiagram.io/d/Datatbase-wk-8a-682122155b2fc4582f1ff0d5
